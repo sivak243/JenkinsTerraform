@@ -52,6 +52,7 @@ resource "aws_instance" "myFirstInstance" {
   }
 }
 
+/*
 # Create Elastic IP address
 resource "aws_eip" "myFirstInstance" {
   vpc      = true
@@ -59,4 +60,4 @@ resource "aws_eip" "myFirstInstance" {
 tags= {
     Name = "my_elastic_ip"
   }
-}
+}*/
