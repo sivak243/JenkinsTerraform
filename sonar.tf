@@ -39,6 +39,7 @@ resource "aws_instance" "mySonarInstance" {
       }
     }
 
+/*
 # Create Elastic IP address for Sonar instance
 resource "aws_eip" "mySonarInstance" {
   vpc      = true
@@ -46,4 +47,4 @@ resource "aws_eip" "mySonarInstance" {
 tags= {
     Name = "sonar_elastic_ip"
   }
-}
+}*/
