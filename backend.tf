@@ -3,6 +3,6 @@ terraform {
     bucket = "my-backend-bucket243"
     key = "main" 
     region = "ap-south-1"
-    dynamodb_table = "DynanoDB"
+    dynamodb_table = "DynamoDB"
   }
 }
