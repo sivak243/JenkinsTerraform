@@ -1,12 +1,7 @@
 pipeline {
     agent any
     
-    tools {
-             terraform 'terraform-1.3.4'
-          }
-
-
-    stages {
+     stages {
         stage('Checkout') {
             steps {
             checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/sasikanth53/infraterraform.git']]])
