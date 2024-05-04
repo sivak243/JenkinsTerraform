@@ -1,6 +1,6 @@
 variable "aws_region" {
        description = "The AWS region to create things in." 
-       default     = "ap-east-2" 
+       default     = "us-east-2" 
 }
 
 variable "key_name" { 
